@@ -1,0 +1,157 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.header,
+.top-content,
+.footer {
+  background-color: #1f2937;
+  padding: 5px;
+  color: #F9FAF8;
+}
+
+.hero {
+  color: #F9FAF8;
+}
+
+.subhero {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex: 3;
+}
+
+.btn-signup1 {
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 10%;
+  border: 0 solid #3882f6;
+}
+
+.top-content img {
+  height: 100px;
+  width: 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-header{
+  color: #1f2937;
+}
+
+.tiles {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+}
+
+.tiles .tile img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid hsl(212, 46%, 41%);
+  border-radius: 10%;
+}
+
+.subtext {
+  max-width: 100px;
+}
+
+.testimonial {
+  background-color: rgb(175, 170, 170);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 3;
+}
+
+.quote-container {
+  margin: auto auto;
+}
+
+
+
+/* .signup-call {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-container {
+  background-color: hsl(212, 66%, 38%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 600px;
+}
+
+.call-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.action-section {
+  display: flex;
+  flex: 3;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  background-color: #3882f6;
+  min-width: 600px;
+  min-height: 100px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jump {
+  border: 1px solid #fff;
+  border-radius: 15%;
+  background-color: #3882f6;
+  max-height: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}

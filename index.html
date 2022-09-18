@@ -2,65 +2,89 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="logo">Header Logo</div>
-    <div class="links">
-      <ul>
-        <li>link one</li>
-        <li>link two</li>
-        <li>link three</li>
-      </ul>
+    <div class="header">
+      <div class="logo">Header Logo</div>
+      <div class="links">
+        <div class="link"><a href="#">link one</a></div>
+        <div class="link"><a href="#">link two</a></div>
+        <div class="link"><a href="#">link three</a></div>
+      </div>
     </div>
 
     <div class="top-content">
       <div class="top-content-left">
-        <strong>This website is awesome</strong>
-        <p>Subtext under the main title</p>
-        <button class="button start-button">Sign up</button>
+        <div class="hero">This website is awesome</div>
+        <div class="subhero">Subtext under the main title</div>
+        <button class="btn-signup1">Sign up</button>
       </div>
       <div class="top-content-right">
-        <img src="#" alt="add an image here" />
+        <img
+          src="./images/pexels-fauxels-3183197.jpg"
+          alt="add an image here"
+        />
       </div>
     </div>
 
-    <div class="grid-tiles">
-      <div class="tile tile-one">
-        <img src="#" alt="" />
-        <div class="subtext subtext-one">subtext for tile one</div>
-      </div>
-      <div class="tile tile-two">
-        <img src="#" alt="" />
-        <div class="subtext subtext-two">subtext for tile two</div>
-      </div>
-      <div class="tile tile-three">
-        <img src="#" alt="" />
-        <div class="subtext subtext-three">subtext for tile three</div>
-      </div>
-      <div class="tile tile-four">
-        <img src="#" alt="" />
-        <div class="subtext subtext-four">subtext for tile four</div>
+    <div class="info">
+      <div class="info-header">No idea what this section is for. But hey, I'm learning.</div>
+      <div class="tiles">
+        <div class="tile tile-one">
+          <img src="./images/pexels-alex-andrews-1983037.jpg" alt="" />
+          <div class="subtext subtext-one">subtext for tile one</div>
+        </div>
+        <div class="tile tile-two">
+          <img src="./images/pexels-andrea-piacquadio-3768135.jpg" alt="" />
+          <div class="subtext subtext-two">subtext for tile two</div>
+        </div>
+        <div class="tile tile-three">
+          <img src="./images/pexels-david-mcbee-392024.jpg" alt="" />
+          <div class="subtext subtext-three">subtext for tile three</div>
+        </div>
+        <div class="tile tile-four">
+          <img src="./images/pexels-sound-on-3394662.jpg" alt="" />
+          <div class="subtext subtext-four">subtext for tile four</div>
+        </div>
       </div>
     </div>
 
     <div class="testimonial">
-      <div class="quote">some random quote here</div>
-      <div class="credit">- name, designation</div>
-    </div>
-
-    <div class="signup-call">
-      <div class="call-left">
-        <strong>it is time</strong>
-        <p>something something, so sign up</p>
-      </div>
-      <div class="call-right">
-        <button class="button end-button">Sign up</button>
+      <div class="quote-container">
+        <div class="quote"><em>some random quote here</em></div>
+        <div class="credit"><strong>- name, designation</strong></div>
       </div>
     </div>
 
-    <div class="footer">
-        copyright (c) No copyright 2022
+    <!-- <div class="signup-call">
+      <div class="call-container">
+        <div class="call-left">
+          <div class="call-head">it is time</div>
+          <div class="subtext">something something, so sign up</div>
+        </div>
+        <div class="call-right">
+          <button class="button signup-end">Sign up</button>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="action-section">
+      <div class="action-container">
+        <div class="action-left">
+          <div class="action-head">
+            This is the most difficult section to do in this exercise!
+          </div>
+          <div class="action-sub">
+            I had to delete all the html and css for this section and so it all
+            over again.
+          </div>
+        </div>
+        <button class="jump">Sign up</button>
+      </div>
     </div>
+
+    <div class="footer">copyright (c) No copyright 2022</div>
   </body>
 </html>
